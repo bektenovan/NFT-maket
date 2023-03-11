@@ -82,3 +82,47 @@ a{
   }
 }
 /*END Header burger-menu */
+/* START HomePage */
+.discover{
+  display: flex;
+}
+.discover_text{
+  width: 510px;
+  height: 222px;
+margin-top: 80px;
+margin-left: 115px;
+font-family: 'Work Sans';
+font-size: 25px;
+}
+.discover_text h1{
+  font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 61px;
+}
+.discover_text p{
+padding: 20px;
+}
+.discover_text button{
+  background-color: blueviolet;
+  border: none;
+  color:white; 
+  padding: 15px 45px;
+  text-align: center;
+  display: inline-block;
+  font-size: 18px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+.number{
+
+  display: flex;
+  font-size: 28px;
+  justify-content: space-between;
+}
+.number_char{
+  display: flex;
+  font-size: 28px;
+  justify-content: space-between;
+}
+
