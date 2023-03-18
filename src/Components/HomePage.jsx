@@ -87,8 +87,6 @@ const HomePage = () => {
                     </div>
                 </div>
 
-                {/* start copiryu zdes */}
-
                 <div className="cards" >
                     <div className="card" >
                         <div className="circle">
@@ -291,56 +289,122 @@ const HomePage = () => {
                         <h1>Browse Categories</h1>
                     </div>
                     <div className="cards-browse">
-                    <div class="card-browse" >
-                        <img src={paint} alt="" />
-                        <div class="card-body">
-                            <p>Art</p>
+                        <div class="card-browse" >
+                            <img src={paint} alt="" />
+                            <div class="card-body">
+                                <p>Art</p>
+                            </div>
+                        </div>
+                        <div class="card-browse" >
+                            <img src={monkey} alt="" />
+                            <div class="card-body">
+                                <p>Collectibles</p>
+                            </div>
+                        </div>
+                        <div class="card-browse" >
+                            <img src={music} alt="" />
+                            <div class="card-body">
+                                <p>Music</p>
+                            </div>
+                        </div>
+                        <div class="card-browse" >
+                            <img src={photo} alt="" />
+                            <div class="card-body">
+                                <p>Photography</p>
+                            </div>
+                        </div>
+                        <div class="card-browse" >
+                            <img src={video} alt="" />
+                            <div class="card-body">
+                                <p>Video</p>
+                            </div>
+                        </div>
+                        <div class="card-browse" >
+                            <img src={stick} alt="" />
+                            <div class="card-body">
+                                <p>Utility</p>
+                            </div>
+                        </div>
+                        <div class="card-browse" >
+                            <img src={ball} alt="" />
+                            <div class="card-body">
+                                <p>Sport</p>
+                            </div>
+                        </div>
+                        <div class="card-browse" >
+                            <img src={planet} alt="" />
+                            <div class="card-body">
+                                <p>Virtual Worlds</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="card-browse" >
-                        <img src={monkey} alt="" />
-                        <div class="card-body">
-                            <p>Collectibles</p>
+
+                    <div className="more-nfts">
+                        <div className="more-text">
+                            <h1>Discover More NFTs</h1>
+                            <div className="more-btn">
+                                <p>Explore new trending NFTs</p>
+                                <button> <img src="https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/eye@2x.svg" alt="" /> View Rankings</button>
+                            </div>
+                        </div>
+                        <div className="more-cards">
+                            <div class="more-card" >
+                                <img width="330px" height="296px" src="https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/image-placeholder-62@2x.png" alt="" />
+                                <div class="more-body">
+                                    <h3>Distant Galaxy</h3>
+                                    <ul className="more__ava">
+                                        <li><img width='24' height='24' class="scale" src="https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/avatar-placeholder-59@2x.png" alt="" /></li>
+                                        <li className="ava">MoonDancer</li>
+                                    </ul>
+                                    <ul className="more-info">
+                                        <li>Price</li>
+                                        <li>Highest Bid</li>
+                                    </ul>
+                                    <ul className="eth">
+                                        <li>1.63 ETH</li>
+                                        <li>0.33 wETH</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="more-card" >
+                                <img width="330px" height="296px" src="https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/image-placeholder-63@2x.png" alt="" />
+                                <div class="more-body">
+                                    <h3>Life On Edena</h3>
+                                    <ul className="more__ava">
+                                        <li><img width='24' height='24' class="scale" src="https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/avatar-placeholder-20@2x.png" alt="" /></li>
+                                        <li className="ava">NebulaKid</li>
+                                    </ul>
+                                    <ul className="more-info">
+                                        <li>Price</li>
+                                        <li>Highest Bid</li>
+                                    </ul>
+                                    <ul className="eth">
+                                        <li>1.63 ETH</li>
+                                        <li>0.33 wETH</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="more-card" >
+                                <img width="330px" height="296px" src="https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/image-placeholder-64@2x.png" alt="" />
+                                <div class="more-body">
+                                    <h3>AstroFiction</h3>
+                                    <ul className="more__ava">
+                                        <li><img width='24' height='24' class="scale" src="https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/avatar-placeholder-57@2x.png" alt="" /></li>
+                                        <li className="ava">Spaceone</li>
+                                    </ul>
+                                    <ul className="more-info">
+                                        <li>Price</li>
+                                        <li>Highest Bid</li>
+                                    </ul>
+                                    <ul className="eth">
+                                        <li>1.63 ETH</li>
+                                        <li>0.33 wETH</li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="card-browse" >
-                        <img src={music} alt="" />
-                        <div class="card-body">
-                            <p>Music</p>
-                        </div>
-                    </div>
-                    <div class="card-browse" >
-                        <img src={photo} alt="" />
-                        <div class="card-body">
-                            <p>Photography</p>
-                        </div>
-                    </div>
-                    <div class="card-browse" >
-                        <img src={video} alt="" />
-                        <div class="card-body">
-                            <p>Video</p>
-                        </div>
-                    </div>
-                    <div class="card-browse" >
-                        <img src={stick} alt="" />
-                        <div class="card-body">
-                            <p>Utility</p>
-                        </div>
-                    </div>
-                    <div class="card-browse" >
-                        <img src={ball} alt="" />
-                        <div class="card-body">
-                            <p>Sport</p>
-                        </div>
-                    </div>
-                    <div class="card-browse" >
-                        <img src={planet} alt="" />
-                        <div class="card-body">
-                            <p>Virtual Worlds</p>
-                        </div>
-                    </div>
-                    </div>
-                   
+
                 </div>
             </div>
 

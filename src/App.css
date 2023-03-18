@@ -283,9 +283,6 @@ margin: 30px;
   gap: 12px;
   height: 60px;
   padding: 0px 50px;
-  pointer-events: auto;
-  transition: all 0.3s ease;
-
 }
 .cards{
   display: flex;
@@ -306,9 +303,7 @@ align-items: flex-start;
     align-items: center;
     mix-blend-mode: normal;
     padding: 20px;
-    pointer-events: auto;
     position: relative;
-    transition: all 0.3s ease;
 }
 .card:hover {
   transform: scale(0.9); 
@@ -383,12 +378,13 @@ background-color:  #3B3B3B;
 }
 }
 .card-browse{
-  
   background: #3B3B3B;
   border-radius: 20px;
   cursor: pointer;
-  pointer-events: auto;
-  transition: all 0.3s ease;
+  transition: 1s;
+}
+.card-browse:hover {
+  transform: scale(0.9)
 }
 .card-body{
   padding: 20px;
@@ -420,12 +416,103 @@ margin-left: 100px;
 @media(max-width:870px){
 .cards-browse{
   padding: 0px;
-  
+
 }
 }
 @media(max-width:750px){
   .browse-text{
     margin-left: 0px;
     padding: 0px;
+  }
+}
+.more-text{
+  padding-left:  150px;
+  padding-right: 150px;
+ margin: 30px;
+ }
+ .more-btn{
+   display: flex;
+   justify-content: space-between;
+ }
+ .more-btn button{
+   border: 2px solid;
+   border-color:#a259ff;
+   border-radius: 20px;
+   cursor: pointer;
+   gap: 12px;
+   height: 60px;
+   padding: 0px 50px;
+ }
+ .more-cards{
+  display: flex;
+  align-items: center;
+ flex-wrap: wrap;
+  gap: 60px;
+  justify-content: center;
+  padding: 50px;
+}
+.more-card{
+  background: #3B3B3B;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 1s;
+}
+.more-card:hover {
+  transform: scale(0.9)
+}
+.more-body{
+  background: #3B3B3B; 
+}
+.more-body h3{
+  background: #3B3B3B; 
+margin: 20px;
+}
+.more__ava{
+    padding: 0px;
+    margin: 20px;
+    font-size: 18px;
+    display: flex;
+    background-color: #3B3B3B;
+          }
+          .ava{
+            margin-left: 10px;
+            background-color: #3B3B3B;
+          }
+.more-info{
+  background-color: #3B3B3B;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 20px;
+  font-size: 12px;
+}
+.more-info ul, li{
+  background-color: #3B3B3B;
+}  
+.more-info li{
+  color: #858584;
+}
+.eth{
+  background-color: #3B3B3B;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 20px;
+  font-size: 16px;
+}        
+
+@media(max-width:870px){
+  .more-cards{
+  padding: 0px;
+  }
+}
+@media(max-width: 1000px){
+  .more-text{
+    padding-left: 0px ;
+    padding-right: 0px;
+  }
+}
+@media(max-width:800px){
+  .more-btn{
+    display: flex;
+    flex-wrap: wrap;
   }
 }
