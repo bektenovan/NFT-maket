@@ -1,5 +1,13 @@
 import React from "react";
 import img from '../img/num.png'
+import paint from '../img/paint.png'
+import music from '../img/music.png'
+import monkey from '../img/monkey.png'
+import photo from '../img/photo.png'
+import video from '../img/video.png'
+import stick from '../img/stick.png'
+import ball from '../img/ball.png'
+import planet from '../img/planet.png'
 
 const HomePage = () => {
     return (
@@ -278,7 +286,62 @@ const HomePage = () => {
                     </div>
                 </div>
 
-
+                <div className="browse">
+                    <div className="browse-text">
+                        <h1>Browse Categories</h1>
+                    </div>
+                    <div className="cards-browse">
+                    <div class="card-browse" >
+                        <img src={paint} alt="" />
+                        <div class="card-body">
+                            <p>Art</p>
+                        </div>
+                    </div>
+                    <div class="card-browse" >
+                        <img src={monkey} alt="" />
+                        <div class="card-body">
+                            <p>Collectibles</p>
+                        </div>
+                    </div>
+                    <div class="card-browse" >
+                        <img src={music} alt="" />
+                        <div class="card-body">
+                            <p>Music</p>
+                        </div>
+                    </div>
+                    <div class="card-browse" >
+                        <img src={photo} alt="" />
+                        <div class="card-body">
+                            <p>Photography</p>
+                        </div>
+                    </div>
+                    <div class="card-browse" >
+                        <img src={video} alt="" />
+                        <div class="card-body">
+                            <p>Video</p>
+                        </div>
+                    </div>
+                    <div class="card-browse" >
+                        <img src={stick} alt="" />
+                        <div class="card-body">
+                            <p>Utility</p>
+                        </div>
+                    </div>
+                    <div class="card-browse" >
+                        <img src={ball} alt="" />
+                        <div class="card-body">
+                            <p>Sport</p>
+                        </div>
+                    </div>
+                    <div class="card-browse" >
+                        <img src={planet} alt="" />
+                        <div class="card-body">
+                            <p>Virtual Worlds</p>
+                        </div>
+                    </div>
+                    </div>
+                   
+                </div>
             </div>
 
         </div>
