@@ -1,5 +1,5 @@
 *{
-  font-family: url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Outfit:wght@100;200;300;400;500&family=Work+Sans:wght@200&display=swap');
+  font-family: url("https://fonts.googleapis.com/css?family=Work+Sans:400,600|Space+Mono:400,700");
   box-sizing: border-box;
   margin: 10;
   padding: 10;
@@ -103,6 +103,9 @@ font-size: 25px;
 font-style: normal;
 font-weight: 600;
 font-size: 61px;
+}
+.btn-start img{
+  background-color: blueviolet;
 }
 .discover_text button{
   background-color: blueviolet;
@@ -262,5 +265,119 @@ display: flex;
     display: flex;
        }
        }
-      /* End HomePage */
+.creators-text{
+ padding-left:  150px;
+ padding-right: 150px;
+margin: 30px;
+}
+.creators-btn{
+  display: flex;
+  justify-content: space-between;
+}
+.creators-btn button{
+  border: 2px solid;
+  border-color:#a259ff;
+  border-radius: 20px;
+  cursor: pointer;
+  gap: 12px;
+  height: 60px;
+  padding: 0px 50px;
+  pointer-events: auto;
+  transition: all 0.3s ease;
 
+}
+.cards{
+  display: flex;
+  align-items: center;
+ flex-wrap: wrap;
+  gap: 60px;
+  justify-content: center;
+}
+.card{
+align-items: flex-start;
+    background-color: #3B3B3B;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    gap: 20px; 
+    justify-content: center;
+    align-items: center;
+    mix-blend-mode: normal;
+    padding: 20px;
+    pointer-events: auto;
+    position: relative;
+    transition: all 0.3s ease;
+}
+.card:hover {
+  transform: scale(0.9); 
+ }
+.circle{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 15px;
+  top: 18px;
+  background: #2B2B2B;
+  border-radius: 20px;
+  color: #858584;
+}
+.card-ava{
+  display: flex;
+  border-radius: 100px;
+  background-color:  #3B3B3B;
+}
+.name{
+  width: 200px;
+height: 31px;
+  font-size: 22px;
+   color: #FFFFFF;
+}
+.sales{
+  width: 60px;
+height: 22px;
+background-color:  #3B3B3B;
+font-size: 10px;
+color: #858584;
+display: flex;
+align-items: center;
+}
+.cost{
+  display: flex;
+  align-items: center;
+font-size: 13px;
+background-color:  #3B3B3B;
+}
+      /* End HomePage */
+.name{
+  align-items: center;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  height: auto;
+  justify-content: center;
+  position: relative;
+}
+.val{
+  display: flex;
+  background-color:#3B3B3B ;
+}
+@media(max-width: 1000px){
+  .creators-text{
+    padding-left: 0px ;
+    padding-right: 0px;
+  }
+}
+@media(max-width:800px){
+  .creators-btn{
+    display: flex;
+    flex-wrap: wrap;
+  }
+.card_display{
+  display: none;
+}
+}
