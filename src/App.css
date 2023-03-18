@@ -516,3 +516,130 @@ margin: 20px;
     flex-wrap: wrap;
   }
 }
+.nft-higlight{
+  
+    background-color: transparent;
+    background-image:  url(img/mashroom.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    mix-blend-mode: normal;
+    position: relative;
+}
+.nft-info{
+  align-items: flex-end;
+  align-self: stretch;
+  background: linear-gradient(180deg, rgba(162.00005114078522, 89.00000989437103, 255, 0) 0%, rgb(162.00000554323196, 89.00000229477882, 255) 100%);
+  background-color: transparent;
+  display: flex;
+  height: auto;
+  justify-content: center;
+  mix-blend-mode: normal;
+  padding: 360px 195px 60px;
+  position: relative;
+}
+.nft-frame{
+  align-items: flex-end;
+  background-color: transparent;
+  display: flex;
+  height: auto;
+  justify-content: center;
+  margin-left: -113px;
+  margin-right: -113px;
+  position: relative;
+  width: 670px;
+}
+.nft-arts{
+  align-items: flex-start;
+  background-color: transparent;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 30px;
+  height: auto;
+  position: relative;
+}
+.artist-card{
+  align-items: center;
+
+  border-radius: 20px;
+  display: flex;
+  gap: 12px;
+  height: auto;
+  mix-blend-mode: normal;
+  padding: 10px 20px;
+  position: relative;
+  width: fit-content;
+}
+.asset{
+  background-color: transparent;
+  height: 24px;
+  min-width: 24px;
+  mix-blend-mode: normal;
+  position: relative;
+}
+.magic-mashrooms{
+  line-height: 46px;
+  background-color: transparent;
+  font-size: 38px;
+  font-weight: bold;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.button-nft{
+  align-items: center;
+  background-color: #ffffff;
+  background-color: transparent;
+  border-radius: 20px;
+  cursor: pointer;
+  display: flex;
+  gap: 12px;
+  height: 60px;
+  justify-content: center;
+  mix-blend-mode: normal;
+  padding: 22px 50px;
+  pointer-events: auto;
+  position: relative;
+  transition: all 0.3s ease;
+  width: fit-content;
+}
+.auction-timer{
+  align-items: flex-start;
+  backdrop-filter: blur(10px) brightness(100%);
+  background-color:#3b3b3b80;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: auto;
+  justify-content: flex-end;
+  mix-blend-mode: normal;
+  padding: 30px;
+  position: relative;
+  width: 295px;
+}
+.timer{
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: transparent;
+  display: flex;
+  gap: 10px;
+  height: auto;
+  position: relative;
+}
+.auction-end{
+  background-color: transparent;
+}
+.hours, .hour-1, .colon, .minutes,  .seconds, .second-1, .sec-name{
+  background-color: transparent;
+}
+@media(max-width:600px){
+  .nft-frame{
+display: flex;
+flex-wrap: wrap;
+  }
+  .auction-timer{
+  margin: 20px;
+  }
+}

@@ -8,6 +8,7 @@ import video from '../img/video.png'
 import stick from '../img/stick.png'
 import ball from '../img/ball.png'
 import planet from '../img/planet.png'
+import mashroom from '../img/mashroom.png'
 
 const HomePage = () => {
     return (
@@ -404,7 +405,50 @@ const HomePage = () => {
                             </div>
                         </div>
                     </div>
+                </div>
 
+                <div className="nft-higlight">
+                    <div className="nft-info">
+                        <div className="nft-frame">
+                            <div className="nft-arts">
+                                <div className="artist-card">
+                                    <div className="asset">
+                                        <img width="24px" src="https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/avatar-placeholder-2@2x.png" alt="" />
+                                    </div>
+                                    <div className="name-arts">
+                                        Shroomie
+                                    </div>
+                                </div>
+
+                                <div className="magic-mashrooms">Magic Mashrooms</div>
+                                <a href="">
+                                    <div className="button-nft">
+                                        <img src="https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/eye@2x.svg" alt="" />
+                                        <div className="see-nft">See NFT</div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div className="auction-timer">
+                                <div className="auction-end">Auction ends in:</div>
+                                <div className="timer">
+                                    <div className="hours">
+                                        <div class="hour-1">-3</div>
+                                        <div className="hours">Hours</div>
+                                    </div>
+                                    <div className="colon">:</div>
+                                    <div className="minutes">
+                                        <div className="minutes">-45</div>
+                                        <div className="minutes">Minutes</div>
+                                    </div>
+                                    <div className="colon">:</div>
+                                    <div className="seconds">
+                                        <div className="second-1">-21</div>
+                                        <div className="sec-name">Seconds</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 
