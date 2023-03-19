@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/NFT-maket/static/css/main.978b22c5.css",
+    "main.js": "/NFT-maket/static/js/main.2908047d.js",
+    "static/media/mashroom.png": "/NFT-maket/static/media/mashroom.da962353eaca70f5d5b4.png",
+    "static/media/space.png": "/NFT-maket/static/media/space.90b75faeb3f5afc7018a.png",
+    "static/media/photo.png": "/NFT-maket/static/media/photo.91691201bda9ac4793ba.png",
+    "static/media/monkey.png": "/NFT-maket/static/media/monkey.43d1d52a18c30da1384a.png",
+    "static/media/ball.png": "/NFT-maket/static/media/ball.37567462e7cb63c2162f.png",
+    "static/media/music.png": "/NFT-maket/static/media/music.e59eac9cbd910b046711.png",
+    "static/media/planet.png": "/NFT-maket/static/media/planet.58d744404461e78710f0.png",
+    "static/media/stick.png": "/NFT-maket/static/media/stick.5d72331fdaae7daa0254.png",
+    "static/media/paint.png": "/NFT-maket/static/media/paint.fba633b6d3b14bc5183b.png",
+    "static/media/video.png": "/NFT-maket/static/media/video.44949ec8b639d3bc2621.png",
+    "index.html": "/NFT-maket/index.html",
+    "main.978b22c5.css.map": "/NFT-maket/static/css/main.978b22c5.css.map",
+    "main.2908047d.js.map": "/NFT-maket/static/js/main.2908047d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.978b22c5.css",
+    "static/js/main.2908047d.js"
+  ]
+}
