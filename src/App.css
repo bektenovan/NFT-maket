@@ -1039,3 +1039,32 @@ display: none;
 .create-btn button{
   background-color:#a259ff;
 }
+@media(max-width:1000px){
+  .create-img img{
+    width: 400px;
+  }
+}
+@media(max-width:1000px){
+  .create-form{
+    width: 400px;
+    padding: 0px;
+  }
+}
+@media(max-width:800px){
+  .create{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .create-img img{
+    width: 100%;
+  }
+  .create-form {
+   align-items: center;
+  margin-bottom: 30px;
+  
+  }
+  .create-headline{
+gap:5px
+  }
+}
