@@ -480,8 +480,26 @@ const HomePage = () => {
                                 <p className="p-text">Choose between auctions and fixed-price listings. Start earning by selling your NFTs or trading others.</p>
                             </div>
                         </div>
-
-
+                    </div>
+                </div>
+                <div className="digest">
+                    <div className="subsribe-digest">
+                        <img width="425px" src="https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/photo-1@2x.png" alt="" />
+                        <div className="frame-block">
+                            <div className="headline-digest">
+                                <div className="join">Join Our Weekly Digest</div>
+                                <p className="get">Get Exclusive Promotions & Updates Straight To Your Inbox.</p>
+                            </div>
+                            <div className="subcribe">
+                                <input type="text" placeholder="Enter your email here" />
+                                <a href="">
+                                    <div className="btn-sub">
+                                        <img src="https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/envelopesimple-1@2x.svg" alt="" />
+                                        <div className="sub-text">Subscribe</div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
