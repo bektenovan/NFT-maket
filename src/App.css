@@ -826,3 +826,108 @@ border-radius: 20px;
   margin-right: 10px;
 }
 }
+/* Homepages end */
+/* Footer START */
+.footer{
+  align-items: center;
+    align-self: stretch;
+    background-color: #3b3b3b;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding: 40px 195px;
+}
+.footer-info{
+  align-items: flex-start;
+  background-color: transparent;
+  display: flex;
+  height: auto;
+  justify-content: space-between;
+  margin-left: -79.71px;
+  margin-right: -79.71px;
+  position: relative;
+  width: fit-content;
+}
+.marketplace{
+  align-items: flex-start;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    height: auto;
+    padding: 0px 84px 0px 0px;
+    position: relative;
+    width: 327.4138488769531px;
+}
+.explore{
+  align-items: flex-start;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    height: auto;
+    position: relative;
+    width: 240px;
+}
+.join-week{
+  align-items: flex-start;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    height: auto;
+    position: relative;
+    width: fit-content;
+}
+.nft-logo{
+  display: flex;
+}
+.nft-logo h4{
+  background-color: #3B3B3B;
+  color: white;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+.marketplace div{
+  background-color: #3B3B3B;
+  color: rgba(204, 204, 204, 1);
+}
+.marketplace img{
+  background-color: #3B3B3B;
+}
+.explore h4{
+  background-color: #3B3B3B;
+  color: white;
+}
+.explore div{
+  background-color: #3B3B3B;
+  color: rgba(204, 204, 204, 1);
+}
+.join-week h4{
+  background-color: #3B3B3B;
+  color: white;
+}
+.join-text{
+  background-color: #3B3B3B;
+  color: white;
+}
+.crosline{
+  align-items: flex-start;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: auto;
+  margin-left: -79.71px;
+  margin-right: -79.71px;
+  position: relative;
+  width: 1049.413818359375px;
+margin: 30px;
+}
+.line-text{
+  background-color: #3B3B3B;
+  color: rgba(204, 204, 204, 1);
+}
+.icon{
+  padding: 10px;
+}
