@@ -1181,7 +1181,7 @@ line-height: 110%;
   height: auto;
   mix-blend-mode: normal;
   position: relative;
-  width: 834px;
+ 
 }
 .column-frame{
   align-items: flex-start;
@@ -1327,6 +1327,27 @@ line-height: 110%;
 }
 .nft-card-section .eth{
   background-color:#2b2b2b;
+}
+@media(max-width:850px){
+  .line-frame img{
+    display: none;
+  }
+  .headline-section{
+width: 400px;
+  }
+  .search-table{
+    display: none;
+  }
+}
+@media(max-width:680px){
+  .column-frame{
+    display: flex;
+    justify-content: center;
+    width: 200px;
+  }
+.headline-section{
+  width: 300px;
+}
 }
 
 
