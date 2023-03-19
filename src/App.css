@@ -1625,7 +1625,7 @@ margin-left: 10px;
   mix-blend-mode: normal;
   padding: 12px 0px;
   position: relative;
-  width: 690px;
+ 
 }
 .table-item{
   align-items: center;
@@ -1635,7 +1635,7 @@ margin-left: 10px;
   justify-content: space-between;
   padding: 0px 20px;
   position: relative;
-  width: 690px;
+
 }
 .rank{
   align-items: center;
@@ -1800,5 +1800,47 @@ margin-left: 10px;
 
 }
 /*. Rankings desktop end */
+@media(max-width:700px){
+  .ranking-line{
+    width: 430px;
+    font-size: 14px;
+  }
+  .table-header{
+    width: 400px;
+  }
 
+  .rankings-table{
+    width: 400px;
+  }
+  .sold-nfts{
+    display: none;
+  }
+  .sold{
+    display: none;
+  }
+  .rank{
+    width: 250px;
+  }
+  .change{
+    display: none;
+  }
+  .status{
+    display: none;
+  }
+}
+@media(max-width:450px){
+  .ranking-line{
+    font-size: 10px;
+  } .table-header{
+    width: 360px;
+  }
+  .rank-artist{
+    width: 100px;
+  }
+
+.rankings-times{
+  padding-left: 30px;
+}
+
+}
 
