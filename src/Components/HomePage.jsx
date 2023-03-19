@@ -9,6 +9,7 @@ import stick from '../img/stick.png'
 import ball from '../img/ball.png'
 import planet from '../img/planet.png'
 import mashroom from '../img/mashroom.png'
+import { Link } from 'react-router-dom';
 
 const HomePage = () => {
     return (
@@ -17,7 +18,7 @@ const HomePage = () => {
                 <div className="discover_text">
                     <h1>Discover <br /> Digital Art & <br />Collect NFTS</h1>
                     <p>Nft Marketplace Ui Created With Anima For <br /> Figma. Collect, Buy And Sell Art From More <br /> Than 20k Nft Artists.</p>
-                    <button className="btn-start"> <img src="https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/user@2x.svg" alt="" /> Get started</button>
+                    <Link to="/signUp"><button className="btn-start"> <img src="https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/user@2x.svg" alt="" /> Get started</button></Link>
 
                     <ul className="number">
                         <li>240k+<br />Total Sale</li>
@@ -84,7 +85,7 @@ const HomePage = () => {
                     <h1>Top Creators</h1>
                     <div className="creators-btn">
                         <p>Checkout Top Rated Creators On The Nft Marketplace</p>
-                        <button> <img src="https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/rocketlaunch-1@2x.svg" alt="" /> View Rankings</button>
+                    <Link to="/rankings"> <button> <img src="https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/rocketlaunch-1@2x.svg" alt="" /> View Rankings</button></Link>   
                     </div>
                 </div>
 
@@ -424,11 +425,11 @@ const HomePage = () => {
                                 <a href="">
                                     <div className="button-nft">
                                         <img src="https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/eye@2x.svg" alt="" />
-                                        <div className="see-nft">See NFT</div>
+                                      <Link to="/orbitians">  <div className="see-nft">See NFT</div></Link>
                                     </div>
                                 </a>
                             </div>
-                            
+
                             <div className="auction-timer">
                                 <div className="auction-end">Auction ends in:</div>
                                 <div className="timer">
@@ -498,7 +499,7 @@ const HomePage = () => {
                                 <a href="">
                                     <div className="btn-sub">
                                         <img src="https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/envelopesimple-1@2x.svg" alt="" />
-                                        <div className="sub-text">Subscribe</div>
+                                       <Link to="/signUp"> <div className="sub-text">Subscribe</div></Link>
                                     </div>
                                 </a>
                             </div>

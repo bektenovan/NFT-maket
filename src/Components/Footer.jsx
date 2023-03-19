@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from 'react-router-dom';
+
 const Footer = () => {
     return (
         <div className="footer">
@@ -39,7 +41,7 @@ const Footer = () => {
                         <a href="">
                             <div className="btn-sub">
                                 <img src="https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/envelopesimple-1@2x.svg" alt="" />
-                                <div className="sub-text">Subscribe</div>
+                                <Link to="/signUp">  <div className="sub-text">Subscribe</div></Link>
                             </div>
                         </a>
                     </div>

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai'
+import { Link } from 'react-router-dom';
 
 const Header = () => {
     const [nav, setNav] = useState(false);
@@ -9,21 +10,22 @@ const Header = () => {
                 <div className="box">
                     <div className="logo">
                         <img src="https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/storefront-2@2x.svg" />
-                        <h1>NFT Marketplace</h1>
+
+                        <Link to="/"><h1>NFT Marketplace</h1></Link>
                     </div>
                     <ul className={
                         nav ? ["menu", "active"].join(' ') : ["menu"]}>
                         <li>
-                            <a href="">Marketplace</a>
+                            <Link to='/marketplace'>  <a href="">Marketplace</a></Link>
                         </li>
                         <li>
-                            <a href="">Rankings</a>
+                            <Link to="/rankings"> <a href="">Rankings</a></Link>
                         </li>
                         <li>
-                            <a href="">Connect a wallet</a>
+                            <Link to="/wallet"><a href="">Connect a wallet</a></Link>
                         </li>
                         <li>
-                            <button className="sign-btn">Sign up</button>
+                            <Link to="/signUp"> <button className="sign-btn">Sign up</button></Link>
                         </li>
                     </ul>
                     <div onClick={() => setNav(!nav)} className="mobile_btn">
