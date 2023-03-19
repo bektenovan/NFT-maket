@@ -450,6 +450,40 @@ const HomePage = () => {
                         </div>
                     </div>
                 </div>
+
+                <div className="howitworks">
+                    <div className="section-headline">
+                        <div className="section__text">
+                            How It Works
+                        </div>
+                        <p className="find">Find out how to get started</p>
+                    </div>
+                    <div className="cards-row">
+                        <div className="info-card">
+                            <img className="icon" src="https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/icon@2x.svg" alt="" />
+                            <div className="card-details">
+                                <div className="setup">Setup Your wallet</div>
+                                <p className="p-text">Set up your wallet of choice. Connect it to the NFT market by clicking the wallet icon in the top right corner.</p>
+                            </div>
+                        </div>
+                        <div className="info-card">
+                            <img className="icon" src="https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/icon@2x.svg" alt="" />
+                            <div className="card-details">
+                                <div className="setup">Create Collection</div>
+                                <p className="p-text">Upload your work and setup your collection. Add a description, social links and floor price.</p>
+                            </div>
+                        </div>
+                        <div className="info-card">
+                            <img className="icon" src="https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/icon@2x.svg" alt="" />
+                            <div className="card-details">
+                                <div className="setup">Start Earning</div>
+                                <p className="p-text">Choose between auctions and fixed-price listings. Start earning by selling your NFTs or trading others.</p>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
             </div>
 
         </div>
