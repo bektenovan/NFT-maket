@@ -1890,5 +1890,20 @@ border-radius: 20px;
 background-color: #a259ff;
 cursor: pointer;
 }
+@media(max-width:750px){
+  .main{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 50px;
+  }
+}
+@media(max-width:480px){
+  .main{
+    padding: 50px 50px;
+  }
+  .description{
+    width: 300px;
+  }
+}
 /* Orbitian end */
 
