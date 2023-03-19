@@ -1841,6 +1841,54 @@ margin-left: 10px;
 .rankings-times{
   padding-left: 30px;
 }
-
 }
+/* Orbitian start */
+.main{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 50px 200px;
+}
+.orbitian-text p{
+font-size: 15px;
+color: #858584;
+}
+.orbitian-text h5{
+  color: #858584;
+}
+.logos{
+  display: flex;
+}
+.logos img{
+ width: 28px;
+}
+.description{
+  width: 400px;
+}
+.tags-btn{
+  display: flex;
+  flex-direction: column;
+}
+.tags-btn button{
+  display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px 30px;
+gap: 12px;
+margin: 10px;
+width: 150px;
+height: 46px;
+
+background: #3B3B3B;
+border-radius: 20px;
+}
+.place-btn{
+  align-self: center;
+  width: 150px;
+height: 46px;
+border-radius: 20px;
+background-color: #a259ff;
+cursor: pointer;
+}
+/* Orbitian end */
 

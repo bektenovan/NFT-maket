@@ -428,6 +428,7 @@ const HomePage = () => {
                                     </div>
                                 </a>
                             </div>
+                            
                             <div className="auction-timer">
                                 <div className="auction-end">Auction ends in:</div>
                                 <div className="timer">
@@ -447,6 +448,8 @@ const HomePage = () => {
                                     </div>
                                 </div>
                             </div>
+
+
                         </div>
                     </div>
                 </div>

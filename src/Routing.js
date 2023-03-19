@@ -5,6 +5,7 @@ import CreateAccount from './Components/CreateAccount';
 import ConnectWallet from './Components/ConnectWallet';
 import Marketplace from './Components/Marketplace';
 import Rankings from './Components/Rankings'
+import Orbitians from './Components/Orbitians';
 
 const Routing = () => {
     return(
@@ -14,6 +15,8 @@ const Routing = () => {
     <Route path='/wallet' element={<ConnectWallet/>}/>
     <Route path='/marketplace' element={<Marketplace/>}/>
     <Route path='/rankings' element={<Rankings/>}/>
+    <Route path='/orbitians' element={<Orbitians/>}/>
+
 
 
 
